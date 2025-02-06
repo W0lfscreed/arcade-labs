@@ -29,10 +29,11 @@ arcade.draw_triangle_filled(700, 100, 670, 100, 600, 700, arcade.color.GRAY)
 
 arcade.draw_lrtb_rectangle_filled(500, 900, 150, 100, arcade.color.GRAY)
 
-arcade.draw_triangle_filled(500, 150, 670, 150, 658, 200, arcade.color.RED)
+arcade.draw_triangle_filled(500, 150, 670, 150, 658, 200, arcade.color.GRAY)
 
-arcade.draw_triangle_filled(900, 150, 730, 150, 742, 200, arcade.color.RED)
+arcade.draw_triangle_filled(900, 150, 730, 150, 742, 200, arcade.color.GRAY)
 
+arcade.draw_triangle_filled(670, 100, 730, 100, 700, 50, arcade.color.GRAY)
 
 
 
