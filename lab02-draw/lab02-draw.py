@@ -13,7 +13,7 @@ import arcade
 arcade.open_window(1400, 800, "Rocket")
 
 # Set the background color
-arcade.set_background_color(arcade.color.BLACK)
+arcade.set_background_color(arcade.color.LIGHT_BLUE)
 
 # Get ready to draw
 arcade.start_render()
@@ -27,9 +27,11 @@ arcade.draw_triangle_filled(700, 100, 670, 100, 600, 700, arcade.color.GRAY)
 
 #Draw tiny wings
 
-arcade.draw_lrtb_rectangle_filled(400, 1000, 200, 100, arcade.color.GRAY)
+arcade.draw_lrtb_rectangle_filled(500, 900, 150, 100, arcade.color.GRAY)
 
+arcade.draw_triangle_filled(500, 150, 670, 150, 658, 200, arcade.color.RED)
 
+arcade.draw_triangle_filled(900, 150, 730, 150, 742, 200, arcade.color.RED)
 
 
 
