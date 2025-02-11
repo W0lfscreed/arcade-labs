@@ -9,7 +9,7 @@ import arcade
 # Open up a window.
 # From the "arcade" library, use a function called "open_window"
 # Set the window title to "Drawing Rocket"
-# Set the and dimensions (width and height)
+# Set the dimensions (width and height)
 arcade.open_window(1400, 800, "Rocket")
 
 # Set the background color
@@ -35,7 +35,8 @@ arcade.draw_triangle_filled(900, 150, 730, 150, 742, 200, arcade.color.GRAY)
 
 arcade.draw_triangle_filled(670, 100, 730, 100, 700, 50, arcade.color.GRAY)
 
-
+#Alerones
+arcade.draw_triangle_filled(500, 100, 675, 100, 500, 50, arcade.color.RED)
 
 
 
