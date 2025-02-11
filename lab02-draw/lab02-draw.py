@@ -36,7 +36,7 @@ arcade.draw_triangle_filled(900, 150, 730, 150, 742, 200, arcade.color.GRAY)
 arcade.draw_triangle_filled(670, 100, 730, 100, 700, 50, arcade.color.GRAY)
 
 #Alerones
-arcade.draw_triangle_filled(500, 100, 675, 100, 500, 50, arcade.color.RED)
+arcade.draw_triangle_filled(499, 100, 672, 100, 505, 50, arcade.color.RED)
 
 
 
