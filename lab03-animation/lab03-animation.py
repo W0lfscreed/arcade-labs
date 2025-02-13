@@ -5,6 +5,7 @@ from arcade import draw_circle_filled
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
+
 def draw_fondo():
     arcade.set_background_color(arcade.color.LIGHT_BLUE)
 
