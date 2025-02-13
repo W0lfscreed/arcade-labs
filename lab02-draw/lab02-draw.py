@@ -44,7 +44,15 @@ arcade.draw_triangle_filled(901, 100, 728, 100, 895, 50, arcade.color.BATTLESHIP
 
 arcade.draw_triangle_filled(728, 75, 728, 100, 895, 50, arcade.color.BATTLESHIP_GREY)
 
+#Alas
 
+arcade.draw_lrtb_rectangle_filled(200, 1200, 525, 425, arcade.color.GRAY)
+
+arcade.draw_triangle_filled(200, 425, 500, 425, 620, 350, arcade.color.GRAY)
+
+arcade.draw_triangle_filled(700, 425, 500, 425, 620, 350, arcade.color.GRAY)
+
+arcade.draw_triangle_filled(700, 425, 500, 425, 620, 350, arcade.color.GRAY)
 
 
 # --- Finish drawing ---
