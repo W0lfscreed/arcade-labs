@@ -10,12 +10,12 @@ def draw_fondo():
     arcade.set_background_color(arcade.color.LIGHT_BLUE)
 
 def draw_ground():
-    arcade.draw_lrtb_rectangle_filled(0, 800, 50, 0, arcade.color.GRAY)
+    arcade.draw_lrtb_rectangle_filled(0, 800, 50, 0, arcade.color.DARK_BROWN)
 
 
 def circo():
-    draw_circle_filled(400,150,50,arcade.color.WHITE)
-    draw_circle_filled(400,150,50,arcade.color.WHITE)
+    draw_circle_filled(400,500,17,arcade.color.RED)
+
 
 
 
