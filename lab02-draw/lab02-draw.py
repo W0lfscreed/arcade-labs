@@ -36,7 +36,13 @@ arcade.draw_triangle_filled(900, 150, 730, 150, 742, 200, arcade.color.GRAY)
 arcade.draw_triangle_filled(670, 100, 730, 100, 700, 50, arcade.color.GRAY)
 
 #Alerones
-arcade.draw_triangle_filled(499, 100, 672, 100, 505, 50, arcade.color.RED)
+arcade.draw_triangle_filled(499, 100, 672, 100, 505, 50, arcade.color.BATTLESHIP_GREY)
+
+arcade.draw_triangle_filled(672, 75, 672, 100, 505, 50, arcade.color.BATTLESHIP_GREY)
+
+arcade.draw_triangle_filled(901, 100, 728, 100, 895, 50, arcade.color.BATTLESHIP_GREY)
+
+arcade.draw_triangle_filled(728, 75, 728, 100, 895, 50, arcade.color.BATTLESHIP_GREY)
 
 
 
