@@ -37,37 +37,42 @@ def main():
     room4 = Room("A torch-lit chamber.", None, "South", None, "West")
     room_list.append(room4)
 
-    current_room = room_list[0]
+    current_room = 0
 
-    print(current_room.description)
+    print(room_list[current_room].description)
 
-    done = False
-    while not done:
-        done=True
+    finished = True
+    while finished:
+        finished = False
+        print("                                                           ")
 
-    print()
+        direction = str(input("Which direction would you like to go? "))
 
-    direction = str(input("Which direction would you like to go? "))
+        if  direction == "North" or "n" or "N" or "NorRth":
+            direction= "North"
+            next_room = room_list[current_room].north
+            print("                                                           ")
 
-    if  direction == "North" or "n" or "N" or "NorRth":
-        direction= "North"
-        next_room = room_list[current_room].north
+        elif direction == "South" or "s" or "S" or "Soutrth":
+            direction= "South"
+            next_room = room_list[current_room].south
+            print("                                                           ")
 
-    elif direction == "South" or "s" or "S" or "Soutrth":
-        direction= "South"
-        next_room = room_list[current_room].south
+        elif direction == "East" or "e" or "E" or "East":
+            direction= "East"
+            next_room = room_list[current_room].east
+            print("                                                           ")
 
-    elif direction == "East" or "e" or "E" or "East":
-        direction= "East"
-        next_room = room_list[current_room].east
+        elif direction == "West" or "w" or "W" or "West":
+            direction= "West"
+            next_room = room_list[current_room].west
+            print("                                                           ")
 
-    elif direction == "West" or "w" or "W" or "West":
-        direction= "West"
-        next_room = room_list[current_room].west
+        else:
+            print("You can’t go that way.")
+            print("                                                           ")
+            next_room = room_list[current_room]
 
-    else:
-        print("You can’t go that way.")
-        next_room = room_list[current_room]
 
 
 
