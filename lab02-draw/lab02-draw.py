@@ -6,6 +6,7 @@ language and the Arcade library.
 # Import the "arcade" library
 import arcade
 
+
 # Open up a window.
 # From the "arcade" library, use a function called "open_window"
 # Set the window title to "Drawing Rocket"

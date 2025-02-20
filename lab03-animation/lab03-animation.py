@@ -18,7 +18,6 @@ def circo():
 
 
 
-
 def main():
     arcade.open_window(SCREEN_WIDTH, SCREEN_HEIGHT, "Draw circo")
     arcade.set_background_color(arcade.color.LIGHT_BLUE)
