@@ -103,15 +103,16 @@ class Tractor(arcade.Window):
         arcade.draw_circle_filled(self.tractor_x + 50, self.tractor_y - 30, 5, arcade.color.RED)
 
 
-    #mover el tractor con el joystiks
-    def update(self, delta_time):
-        """ Actualiza la posición del tractor con el joystick """
-        if self.joystick:
-            self.tractor_x += self.joystick.x * 200 * delta_time
-            self.tractor_y += self.joystick.y * 200 * delta_time
 
-            self.tractor_x = max(0, min(self.tractor_x, SCREEN_WIDTH))
-            self.tractor_y = max(0, min(self.tractor_y, SCREEN_HEIGHT))
+    #mover el tractor con el joystiks
+#    def update(self, delta_time):
+#        """ Actualiza la posición del tractor con el joystick """
+#        if self.joystick:
+#            self.tractor_x += self.joystick.x * 200 * delta_time
+#            self.tractor_y += self.joystick.y * 200 * delta_time
+#
+#            self.tractor_x = max(0, min(self.tractor_x, SCREEN_WIDTH))
+#            self.tractor_y = max(0, min(self.tractor_y, SCREEN_HEIGHT))
 
 
 
