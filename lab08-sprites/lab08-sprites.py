@@ -139,7 +139,7 @@ class MyGame(arcade.Window):
     def on_key_release(self, key, modifiers):
         """ Manejar teclas liberadas """
         if key in (arcade.key.W, arcade.key.S):
-            self.player_dy = 0WA
+            self.player_dy = 0
         if key in (arcade.key.A, arcade.key.D):
             self.player_dx = 0
 
